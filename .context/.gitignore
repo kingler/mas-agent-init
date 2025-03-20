@@ -1,0 +1,12 @@
+# Backup directories
+.backups/
+
+# Memory archive
+memory/archive/
+
+# Local workspace files
+workspace/**/local/
+
+# Temporary files
+*.tmp
+*.temp
