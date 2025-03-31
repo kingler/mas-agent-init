@@ -1,22 +1,22 @@
 # Agent Bootstrap Protocol
 
 ## Overview
-This document provides the initial bootstrap protocol for agents joining the Multi-Agent Memory System. For a comprehensive understanding of the system, refer to the [Executive Summary](.context/EXECUTIVE_SUMMARY.md).
+This document provides the initial bootstrap protocol for agents joining the Multi-Agent Memory System. For a comprehensive understanding of the system, refer to the [Executive Summary](.cursor/agent-system/docs/EXECUTIVE_SUMMARY.md).
 
 ## Initial Setup
 1. Read this file first
-2. Review the [Executive Summary](.context/EXECUTIVE_SUMMARY.md) for system overview
-3. Check the [Role Registry](.context/shared/role_registry.md) to understand your role and responsibilities
-4. Review the [SDLC Role Registry](.context/shared/sdlc_role_registry.md) for comprehensive SDLC roles
+2. Review the [Executive Summary](.cursor/agent-system/docs/EXECUTIVE_SUMMARY.md) for system overview
+3. Check the [Role Registry](.cursor/agent-system/shared/role_registry.md) to understand your role and responsibilities
+4. Review the [SDLC Role Registry](.cursor/agent-system/shared/sdlc_role_registry.md) for comprehensive SDLC roles
 5. Navigate to `rules/agent{N}_rules.md` based on your agent number
-6. Initialize your workspace in `workspace/agent{N}/`
+6. Initialize your workspace in `.cursor/agent-system/workspace/agent{N}/`
 7. Connect to the shared memory system
-8. Register your profile in the [Agent Directory](.context/shared/agent_directory.md)
+8. Register your profile in the [Agent Directory](.cursor/agent-system/shared/agent_directory.md)
 9. Register in the appropriate communication channels
 
 ## Directory Structure
 ```
-.context/
+.cursor/agent-system/
 ├── shared/                     # Shared resources
 │   ├── communication/          # Communication channels
 │   │   ├── global_chat.md      # Global communication
@@ -41,6 +41,7 @@ This document provides the initial bootstrap protocol for agents joining the Mul
 ├── rules/                      # Agent rules
 ├── workspace/                  # Agent workspaces
 ├── templates/                  # Documentation templates
+├── docs/                       # System documentation
 └── scripts/                    # Initialization scripts
 ```
 
@@ -90,7 +91,7 @@ Each agent in the Multi-Agent Memory System has a specialized role with specific
 As an agent in the Multi-Agent Memory System, it's important to understand the difference between the two role registries:
 
 ### Role Registry
-The [Role Registry](.context/shared/role_registry.md) defines the core agent roles in our current system:
+The [Role Registry](.cursor/agent-system/shared/role_registry.md) defines the core agent roles in our current system:
 - System Architect (Agent 1)
 - Development Agent (Agent 2)
 - UX Agent (Agent 3)
@@ -99,7 +100,7 @@ The [Role Registry](.context/shared/role_registry.md) defines the core agent rol
 It includes primary and secondary responsibilities, domain expertise areas, authority boundaries, relationships with other roles, and evolution paths for these core roles.
 
 ### SDLC Role Registry
-The [SDLC Role Registry](.context/shared/sdlc_role_registry.md) is a more comprehensive registry that defines all roles involved in the entire Software Development Life Cycle (SDLC). It expands beyond our core agent roles to include the full spectrum of roles in software development, such as:
+The [SDLC Role Registry](.cursor/agent-system/shared/sdlc_role_registry.md) is a more comprehensive registry that defines all roles involved in the entire Software Development Life Cycle (SDLC). It expands beyond our core agent roles to include the full spectrum of roles in software development, such as:
 - Planning and Requirements Phase Roles (Product Owner, Requirements Analyst, etc.)
 - Design Phase Roles (UX Designer, UI Designer, etc.)
 - Development Phase Roles (Frontend Developer, Backend Developer, etc.)
@@ -114,16 +115,16 @@ The SDLC Role Registry enables our system to scale to support enterprise-level s
 
 ## Onboarding Process
 1. **Preparation Phase**
-   - Review your role in the [Role Registry](.context/shared/role_registry.md)
+   - Review your role in the [Role Registry](.cursor/agent-system/shared/role_registry.md)
    - Understand your responsibilities and authority boundaries
    - Identify your primary and secondary Memory Bank files
-   - Familiarize yourself with the [SDLC Role Registry](.context/shared/sdlc_role_registry.md)
+   - Familiarize yourself with the [SDLC Role Registry](.cursor/agent-system/shared/sdlc_role_registry.md)
 
 2. **Initialization Phase**
    - Read your role-specific rules
    - Initialize your workspace
    - Set up your development environment
-   - Register your profile in the [Agent Directory](.context/shared/agent_directory.md)
+   - Register your profile in the [Agent Directory](.cursor/agent-system/shared/agent_directory.md)
 
 3. **Integration Phase**
    - Join the appropriate communication channels

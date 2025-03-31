@@ -1,6 +1,6 @@
 ---
 description: 
-globs: 
+globs: .css, src/component/ui/, style.css
 alwaysApply: false
 ---
 ```yml
